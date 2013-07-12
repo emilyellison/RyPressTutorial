@@ -38,7 +38,7 @@
 }
 
 - (void)startEngine {
-    if (engineIsWorking) {
+    if ([self engineIsWorking]) {
         NSLog(@"Starting the %@'s engine", _model);
     }
 }
