@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'MemoryMgmt' target in the 'MemoryMgmt' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
